@@ -1,0 +1,247 @@
+/*Common elements*/
+body {
+    font-size: 105%;
+    background-color: red;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+h1 {
+    font-size: 2.0em;
+    margin: 1.5em 0 1.5em 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 1.0em 0 1.0em;
+    padding: 0;
+}
+
+h3 {
+    color: red;
+}
+p1 {
+    color: red;
+}
+
+p {
+    color: red;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding: 0;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+ul {
+    font-size: 1em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+    color: red;
+}
+
+ul li {
+    margin: 0;
+    padding: 0 0 0.2em;
+    color: red;
+}
+
+a, a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1070px;
+    padding: 0 3.0em;
+
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div.clear {
+    clear:both;
+    font-size: 1%;
+}
+/*Header*/
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background-color: red;
+    
+}
+
+header h1 {
+    color: black;
+    font-size: 9em;
+    letter-spacing: -0.025em;
+    margin: 0;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 3.8em;
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+}
+
+/*Nav Bars*/
+nav {
+    font-size: 1em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+    line
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: wavy;
+    color: black;
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover {
+    color: grey;
+}
+
+nav#utilityMenu {
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: grey;
+    height: 1.3em;
+}
+
+nav#utilityMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+    color: black;
+    text-decoration: wavy;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size:0.8em;
+}
+
+nav#utilityMenu ul li.acctNav a.active {
+    background-color: black;
+}
+
+nav#utilityMenu ul li.acctNav a:hover{
+    background-color: black;
+    color: black;
+}
+nav#utilityMenu li a, nav#utilityMenu li a:visited {padding: 0;}
+nav#utilityMenu li a:hover { background-color: black;}
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: 0 0 0 1.0em;
+}
+nav#utilityMenu ul li.acctNav::before, nav#utilityMenu ul li input#search::before{
+    content: "| ";
+    color: black;
+}
+
+
+/*Sidebar Section*/
+section#sidebar {
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: black;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0 1.7em;
+    border-left: black solid 5px
+}
+/*Main Section*/
+section #main {
+    background-color: black;
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1.5em;
+    display: inline-bock;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 450px;
+    margin: 0 0em 0em 0em;
+    padding: 1.0em;
+    background-color: black;
+    border: black solid 1px;
+    border-radius: 0.6em;
+    color: red;
+}
+
+/*Footer*/
+footer {
+    background-color: black;
+    height: 25px;
+    font-size: 1.2em;
+    color: red;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: red;
+    text-decoration: wavy;
+}
+
+footer a:hover {
+    color: red;
+    text-decoration: wavy;
+}
+
