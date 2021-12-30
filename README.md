@@ -1,0 +1,1 @@
+# StaticStoreFrontindex.html
